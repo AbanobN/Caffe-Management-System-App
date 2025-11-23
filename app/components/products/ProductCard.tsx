@@ -1,4 +1,3 @@
-// components/products/ProductCard.tsx
 import { Text, View } from "react-native";
 import type { Product } from "../../models/product";
 
