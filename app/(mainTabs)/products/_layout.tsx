@@ -1,16 +1,20 @@
 import { Stack } from "expo-router";
 
-export default function ProductsLayout() {
+export default function ProductsRootLayout() {
   return (
-    <Stack screenOptions={{headerShown: false}}>
+    <Stack screenOptions={{ headerShown: false }}>
+      {/* Menu Items Stack */}
       <Stack.Screen
-        name="index"
-        options={{ title: "Products" }}
+        name="menuItems"
+        options={{ title: "Menu Items" }}
       />
+
+      {/* Inventory Stack */}
       <Stack.Screen
-        name="[id]"
-        options={{ title: "Product Details" }}
+        name="inventory"
+        options={{ title: "Inventory" }}
       />
     </Stack>
   );
 }
+
