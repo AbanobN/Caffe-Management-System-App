@@ -1,6 +1,6 @@
 import { Tabs } from "expo-router";
 
-export default function TabsLayout() {
+export default function MainTabsLayout() {
   return (
     <Tabs
       screenOptions={{

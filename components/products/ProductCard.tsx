@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import type { Product } from "../../models/product";
+import type { Product } from "../../../models/product";
 
 type Props = {
     product: Product;
