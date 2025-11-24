@@ -5,6 +5,12 @@ export default function ProductsRootLayout() {
     <Stack screenOptions={{ headerShown: false }}>
       {/* Menu Items Stack */}
       <Stack.Screen
+        name="index"
+        options={{ title: "Products" }}
+      />
+
+      {/* Menu Items Stack */}
+      <Stack.Screen
         name="menuItems"
         options={{ title: "Menu Items" }}
       />

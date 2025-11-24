@@ -4,7 +4,7 @@ import { Button, FlatList, Text, View } from "react-native";
 import Screen from "../../../components/ui/Screen";
 import SectionTitle from "../../../components/ui/SectionTitle";
 import type { Shift } from "../../../models/shift";
-import { getShifts } from "../../../services/api";
+// import { getShifts } from "@/services/api";
 
 export default function ShiftsScreen() {
   const [shifts, setShifts] = useState<Shift[]>([]);
